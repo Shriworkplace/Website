@@ -1,4 +1,4 @@
-# Portfolio Website Documentation (`code.html`)
+# Portfolio Website Documentation
 
 This document provides a comprehensive breakdown of all the technologies, features, and design patterns used in the `code.html` portfolio website.
 
