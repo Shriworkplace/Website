@@ -1,4 +1,4 @@
-﻿        // Particle System Implementation (Made With Gemini)My will to use this type 
+        // Particle System Implementation (Made With Gemini)My will to use this type 
         const canvas = document.getElementById('particle-canvas');
         const ctx = canvas.getContext('2d');
         let particles = [];
@@ -360,3 +360,18 @@
                 addHapticFeedback(el);
             });
         }
+
+        // Email Obfuscation - prevents bots from harvesting the raw email address
+        (function() {
+            const emailContainer = document.getElementById('email-contact');
+            if (emailContainer) {
+                const user = 'shrived.work';
+                const domain = 'gmail.com';
+                const email = user + '@' + domain;
+                const link = document.createElement('a');
+                link.href = 'mail' + 'to:' + email;
+                link.textContent = email;
+                link.className = 'hover:text-primary transition-colors duration-300';
+                emailContainer.appendChild(link);
+            }
+        })();
